@@ -1,0 +1,47 @@
+name: GoQuickly
+version: 1.0.0
+api-version: 1.13
+description: "This plugins adds commands to move faster and teleport."
+author: oscardoras
+main: org.bukkitplugin.goquickly.GoQuicklyPlugin
+permissions:
+  goquickly:
+    default: op
+    children:
+      goquickly.command: true
+  goquickly.command:
+    default: op
+    children:
+      goquickly.command.spawn: true
+      goquickly.command.suicide: true
+      goquickly.command.fly: true
+      goquickly.command.spectator: true
+      goquickly.command.tprequest: true
+      goquickly.command.tpcancel: true
+      goquickly.command.tpaccept: true
+      goquickly.command.tprefuse: true
+      goquickly.command.home: true
+      goquickly.command.addhome: true
+      goquickly.command.delhome: true
+  goquickly.command.spawn:
+    default: op
+  goquickly.command.suicide:
+    default: op
+  goquickly.command.fly:
+    default: op
+  goquickly.command.spectator:
+    default: op
+  goquickly.command.tprequest:
+    default: op
+  goquickly.command.tpcancel:
+    default: op
+  goquickly.command.tpaccept:
+    default: op
+  goquickly.command.tprefuse:
+    default: op
+  goquickly.command.home:
+    default: op
+  goquickly.command.addhome:
+    default: op
+  goquickly.command.delhome:
+    default: op
