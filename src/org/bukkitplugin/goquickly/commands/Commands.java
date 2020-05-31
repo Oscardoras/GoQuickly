@@ -15,14 +15,14 @@ import org.bukkitplugin.goquickly.GoQuicklyPlugin;
 import org.bukkitplugin.goquickly.GoQuicklyPlugin.Spectator;
 import org.bukkitplugin.goquickly.Message;
 import org.bukkitplugin.goquickly.TeleportablePlayer;
-import org.bukkitutils.command.v1_14_3_V1.Argument;
-import org.bukkitutils.command.v1_14_3_V1.CommandRegister;
-import org.bukkitutils.command.v1_14_3_V1.CommandRegister.CommandExecutorType;
-import org.bukkitutils.command.v1_14_3_V1.LiteralArgument;
-import org.bukkitutils.command.v1_14_3_V1.arguments.EntitySelectorArgument;
-import org.bukkitutils.command.v1_14_3_V1.arguments.EntitySelectorArgument.EntitySelector;
-import org.bukkitutils.command.v1_14_3_V1.arguments.FloatArgument;
-import org.bukkitutils.command.v1_14_3_V1.arguments.StringArgument;
+import org.bukkitutils.command.v1_15_V1.Argument;
+import org.bukkitutils.command.v1_15_V1.CommandRegister;
+import org.bukkitutils.command.v1_15_V1.LiteralArgument;
+import org.bukkitutils.command.v1_15_V1.CommandRegister.CommandExecutorType;
+import org.bukkitutils.command.v1_15_V1.arguments.EntitySelectorArgument;
+import org.bukkitutils.command.v1_15_V1.arguments.FloatArgument;
+import org.bukkitutils.command.v1_15_V1.arguments.StringArgument;
+import org.bukkitutils.command.v1_15_V1.arguments.EntitySelectorArgument.EntitySelector;
 
 public final class Commands {
 	private Commands() {}
