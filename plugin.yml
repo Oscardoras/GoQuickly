@@ -3,7 +3,7 @@ version: 1.0.0
 api-version: 1.13
 description: "This plugins adds commands to move faster and teleport."
 author: oscardoras
-main: org.bukkitplugin.goquickly.GoQuicklyPlugin
+main: me.oscardoras.goquickly.GoQuicklyPlugin
 permissions:
   goquickly:
     default: op

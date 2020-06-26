@@ -1,6 +1,6 @@
-package org.bukkitplugin.goquickly;
+package me.oscardoras.goquickly;
 
-import org.bukkitutils.io.TranslatableMessage;
+import me.oscardoras.spigotutils.io.TranslatableMessage;
 
 public class Message extends TranslatableMessage {
 	

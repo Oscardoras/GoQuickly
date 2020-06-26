@@ -1,4 +1,4 @@
-package org.bukkitplugin.goquickly.commands;
+package me.oscardoras.goquickly.commands;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,9 +6,10 @@ import java.util.Map.Entry;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
-import org.bukkitplugin.goquickly.Message;
-import org.bukkitplugin.goquickly.TeleportablePlayer;
-import org.bukkitutils.command.v1_15_V1.CustomArgument;
+
+import me.oscardoras.goquickly.Message;
+import me.oscardoras.goquickly.TeleportablePlayer;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.CustomArgument;
 
 public class HomeArgument extends CustomArgument<Entry<String, Location>> {
 

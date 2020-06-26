@@ -1,4 +1,4 @@
-package org.bukkitplugin.goquickly;
+package me.oscardoras.goquickly;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,8 +12,8 @@ import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
-import org.bukkitutils.io.ConfigurationFile;
 
+import me.oscardoras.spigotutils.io.ConfigurationFile;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.ClickEvent.Action;

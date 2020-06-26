@@ -1,4 +1,4 @@
-package org.bukkitplugin.goquickly;
+package me.oscardoras.goquickly;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,8 +13,9 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.event.player.PlayerToggleSprintEvent;
-import org.bukkitplugin.goquickly.commands.Commands;
-import org.bukkitutils.BukkitPlugin;
+
+import me.oscardoras.goquickly.commands.Commands;
+import me.oscardoras.spigotutils.BukkitPlugin;
 
 public final class GoQuicklyPlugin extends BukkitPlugin implements Listener {
 	
